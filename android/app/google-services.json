@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044815113776",
+    "project_id": "csse-ticketing-mobile-app",
+    "storage_bucket": "csse-ticketing-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044815113776:android:1467a39f89c6cb51c747f5",
+        "android_client_info": {
+          "package_name": "com.example.csse_ticketing_mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjIu9HDYXq-IcSGQoPsfV62kH0xY9wfqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
