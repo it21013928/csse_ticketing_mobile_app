@@ -1,3 +1,4 @@
+import 'package:csse_ticketing_mobile_app/screens/bus_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.active) {
             User? user = snapshot.data as User?;
             if (user == null) {
-              return LoginScreen();
+              return BusScreen();
             }
             return HomeScreen();
           }
